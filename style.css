@@ -1,0 +1,15 @@
+h3 {
+    font-size: 25px;
+}
+.btn-warning:hover {
+    background-color: purple;
+}
+canvas {
+    animation-name: Ruos;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes Ruos {
+    from {box-shadow: 4px 4px 26px rgb(220, 25, 25);}
+    to {box-shadow: 4px 4px 26px rgb(60, 203, 20);}
+}
